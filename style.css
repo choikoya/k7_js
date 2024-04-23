@@ -24,7 +24,11 @@ header{
     /* 공백주기 2개라 양쪽으로 나뉨 */
     align-items: center;
     /* 중간정렬 */
-    padding: 0 20px;
+    /* padding: 0 20px; */
+}
+
+header > h1 {
+    padding: 30px;
 }
 
 nav{
@@ -65,6 +69,11 @@ a:visited, a:link{
     color: white;
 }
 
+/* a:hover{
+    color: darkblue;
+    font-weight: bold;
+} */
+
 
 /* a태그에만 hover걸려있어서 글자만 색변함 > 박스 자체가 색 변하려면 li까지 hover걸어주면 됨 */
 nav > ul > li:hover, a:hover{ 
@@ -98,6 +107,8 @@ section > ul > li {
     background-color:yellow;
     color:black;
 }
+
+
 
 section > ul > li:hover {
     background-color: aqua;
