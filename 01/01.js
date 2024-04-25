@@ -12,3 +12,5 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
 
 });
+
+//innerHTML은 속성(프로퍼티)
